@@ -1,0 +1,8 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "/opt/homebrew/Cellar/vcpkg/2021.05.12/libexec/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "arm64-osx",
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "testMate.cpp.test.executables": "build/leetcode",
+}

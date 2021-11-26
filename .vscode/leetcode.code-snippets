@@ -1,0 +1,25 @@
+{
+	"LeetCode main function": {
+		"prefix": "lcmain",
+		"body": [
+			"void Main()",
+			"{",
+			"    $1",
+			"}",
+			"",
+		]
+	},
+	"LeetCode test function": {
+		"prefix": "lctest",
+		"body": [
+			"TEST(Test, Case1)",
+			"{",
+			"    auto input = parse<$1>(\"$2\");",
+			"    auto expect = parse<$3>(\"$4\");",
+			"    auto actual = Solution().$5($6);",
+			"    EXPECT_EQ(actual, expect);",
+			"}",
+			"",
+		]
+	},
+}
